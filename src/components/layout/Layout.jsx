@@ -1,5 +1,5 @@
-import TopNavbar from "../topNavbar/TopNavbar";
 import SideBar from "../sidebar/SideBar";
+import TopNavbar from "../topNavbar/TopNavbar";
 
 function Layout({ children }) {
   return (
