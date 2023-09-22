@@ -1,4 +1,4 @@
-import SideBar from "../sidebar/SideBar";
+import Sidebar from "../sidebar/SideBar";
 import TopNavbar from "../topNavbar/TopNavbar";
 
 function Layout({ children }) {
@@ -12,7 +12,7 @@ function Layout({ children }) {
       <div className="max-h-screen flex ">
         {/* Sidebar hidden on mobile  */}
         <nav className=" w-72 flex-none ... hidden md:block">
-          <SideBar />
+          <Sidebar />
         </nav>
 
         {/* main content  */}

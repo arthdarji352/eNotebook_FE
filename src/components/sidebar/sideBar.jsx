@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 
-function SideBar() {
+function Sidebar() {
   const navigate = useNavigate();
 
   const logout = () => {
@@ -142,4 +142,4 @@ function SideBar() {
   );
 }
 
-export default SideBar;
+export default Sidebar;
